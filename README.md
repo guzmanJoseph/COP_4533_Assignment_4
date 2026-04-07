@@ -34,7 +34,7 @@ if A[i] != B[j]:
 
 This recurrence is correct because at each step we either include the matching character (adding its value) or skip a character from one of the strings, ensuring all possibilities are considered.
 
-Question 3:
+### Question 3:
 for i from 1 to n:
     for j from 1 to m:
         if A[i] == B[j]:
@@ -47,6 +47,6 @@ for i from 1 to n:
             dp[i][j] = max(
                 dp[i-1][j],
                 dp[i][j-1]
-            )
+ ###           )
 
 Time Complexity: O(nm) because we have two for loops
