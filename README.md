@@ -10,6 +10,8 @@ From the main project directory:
 
 py src/main.py data/file1.in
 
+# Questions
+
 Question 1: The graph for question 1 can be found in data/runtime_graph.png. To run the command to get the graph you need to run py src/benchmark.py. The matplotlib package is required to run this task
 
 Question 2: OPT(i,j) = max value of a common subsequence using the first i characters of A and the first j characters of B
